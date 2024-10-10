@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:skeletons_forked/skeletons_forked.dart';
 
 import 'widgets/skeleton_test_widget.dart';
 
@@ -157,7 +157,7 @@ void main() {
     expect(shimmerState.gradient, SHIMMER_GRADIENT);
   });
 
-  testWidgets('test skeletons dark theme mode', (WidgetTester tester) async {
+  testWidgets('test skeletons_forked dark theme mode', (WidgetTester tester) async {
     await tester.pumpWidget(SkeletonTheme(
       themeMode: ThemeMode.dark,
       child: SkeletonTestWidget(
@@ -181,7 +181,7 @@ void main() {
     expect(shimmerState.gradient, DARK_SHIMMER_GRADIENT);
   });
 
-  testWidgets('test skeletons custom theme', (WidgetTester tester) async {
+  testWidgets('test skeletons_forked custom theme', (WidgetTester tester) async {
     LinearGradient _customGradient = LinearGradient(
       colors: [
         Color(0xFF9AFFC1),

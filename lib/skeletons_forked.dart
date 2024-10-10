@@ -1,4 +1,4 @@
-library skeletons;
+library skeletons_forked;
 
 export './src/shimmer.dart';
 export './src/stylings.dart';

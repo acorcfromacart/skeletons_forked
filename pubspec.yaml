@@ -1,7 +1,7 @@
-name: flutter-skeletons
+name: skeletons_forked
 description: A Flutter package for building custom skeleton widgets to mimic the page's layout while loading.
 version: 0.0.4
-homepage: https://github.com/Guihgo/flutter-skeletons/
+homepage: https://github.com/Guihgo/skeletons_forked/
 
 environment:
   sdk: ">=3.3.0 <4.0.0"

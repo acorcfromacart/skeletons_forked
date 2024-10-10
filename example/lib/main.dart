@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Skeletons Package Examples',
+      title: 'skeletons_forked Package Examples',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

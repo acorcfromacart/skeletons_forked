@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Skeletons Examples"),
+        title: Text("skeletons_forked Examples"),
       ),
       body: Center(
         child: ListView(

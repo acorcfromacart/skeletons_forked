@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:skeletons_forked/skeletons_forked.dart';
 
 class SkeletonThemeExamplePage extends StatefulWidget {
   @override
